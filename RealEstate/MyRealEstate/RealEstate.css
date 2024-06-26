@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    /* background-color: #e0f7fa;  */
+  }
+  
+  .login-form {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #1565c0; /* Darker shade of the primary color for hover effect */
+  }
+  
